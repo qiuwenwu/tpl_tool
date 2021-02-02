@@ -1,0 +1,26 @@
+{
+	"restartable": "rs",
+	"ignore": [
+		".git",
+		".svn",
+		"node_modules/**/node_modules",
+		"*/src/*/*.json",
+		"*/static/*/*.json",
+		"*/static/*.js",
+		"*/dict/**",
+		"*/cache/**"
+	],
+	"verbose": true,
+	"execMap": {
+		"": "node",
+		"js": "node --harmony"
+	},
+	"watch": [
+		
+	],
+	"env": {
+		"NODE_ENV": "development"
+	},
+	"ext": "js ts json html",
+	"legacy-watch": false
+}

@@ -1,0 +1,7 @@
+{
+	"ui": "bootstarp",
+	"page": "index",
+	"new_component": true,
+	"new_page": true,
+	"template": "default"
+}

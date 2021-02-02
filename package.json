@@ -1,0 +1,28 @@
+{
+  "name": "tpl_tool",
+  "version": "1.0.3",
+  "description": "这是模板构造器，用于生成各种模板",
+  "main": "index.js",
+  "scripts": {
+    "gen": "nodemon gen.js",
+    "dev": "nodemon dev.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://qiuwenwu.com/tpl_tool"
+  },
+  "keywords": [
+    "模板",
+    "模块",
+    "组件",
+    "代码",
+    "生成",
+    "引擎"
+  ],
+  "author": "邱文武",
+  "license": "ISC",
+  "dependencies": {
+    "mm_expand": "^1.5.1",
+    "mm_tpl": "^2.1.1"
+  }
+}
